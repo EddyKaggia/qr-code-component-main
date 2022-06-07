@@ -27,12 +27,21 @@ The designs were created to the following widths:
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-*{
+body{
   background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
 }
 
-.p{
-  font-family: 'Outfit', sans-serif;
+.container{
+  background-color: hsl(0, 0%, 100%);
+}
+
+.title{
+color: hsl(218, 44%, 22%);
+}
+
+.text{
+color: hsl(220, 15%, 55%);
 }
 
 
