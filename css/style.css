@@ -33,12 +33,13 @@ The designs were created to the following widths:
 body{
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
+  height: 100%;
 }
 
 .container{
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  margin: 20% 40%;
+  margin: 8% 38.9% 8% 38.9%;
   font-size: 15px;
 }
 
@@ -61,7 +62,7 @@ color: hsl(218, 44%, 22%);
 font-weight: 700;
 text-align: center;
 padding: 0rem 0.75rem;
-font-size: 1.25rem;
+font-size: 1.42rem;
 }
 
 .paragraph{
@@ -69,7 +70,7 @@ color: hsl(220, 15%, 55%);
 font-weight: 400;
 text-align: center;
 padding: 0rem 1rem 2rem 1rem;
-font-size: 0.85rem;
+font-size: 1rem;
 }
 
 @media (max-width: 415px){
@@ -96,7 +97,6 @@ font-size: 0.85rem;
 .attribution { 
   font-size: 11px; 
   text-align: center;
-  margin: 0;
  }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
