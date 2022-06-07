@@ -27,6 +27,7 @@ The designs were created to the following widths:
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+
 body{
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
@@ -34,14 +35,38 @@ body{
 
 .container{
   background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin: 20% 40%;
+  font-size: 15px;
+}
+
+.image{
+  margin: 1rem;
+}
+
+img{
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
+
+.text{
+  margin: 1rem;
 }
 
 .title{
 color: hsl(218, 44%, 22%);
+font-weight: 700;
+text-align: center;
+padding: 0rem 0.75rem;
+font-size: 1.2rem;
 }
 
-.text{
+.paragraph{
 color: hsl(220, 15%, 55%);
+font-weight: 400;
+text-align: center;
+padding: 0rem 1rem 2rem 1rem;
 }
 
 
